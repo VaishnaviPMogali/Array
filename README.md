@@ -1,25 +1,16 @@
-# Array
-arrayManipulation using Java Script
-let Arr=[1,2,2,3,4,5,5,6,5,8];
-let outputArray=[];
-let count=0;
-let start=false;
-for(let j=0;j<Arr.length;j++)
-  {
-    for(let k=0;k<outputArray.length;k++)
-      {
-        if(Arr[j]==outputArray[k])
-        {
-          start=true;
-          
-        }
-      }
-    count++;
-    if(count==1 && start==false){
-      outputArray.push(Arr[j]);
-      
-    }
-    start=false;
-    count=0;
-  }
-console.log(outputArray);
+LOGICAL OPERATIONS USING JAVASCRIPT
+Two arrays with integer elements are taken.
+Our task is to find common element among two array elements.
+By using intersection, we obtain the common elements among two arrays.
+
+OBJECT OPERATIONS USING JAVASCRIPT
+Two car objects are taken
+Car object with brand,model and year properties are taken.
+Our task is to retain the property of the cars.
+Thus by using merge function we retain the property of the car as shown.
+
+
+TASK 1:ARRAY MANIPULATION
+Unique elements has to be retained
+Hence the two array with integer elemnts are taken.
+Then duplicate elements are taken out only distinct or unique elements are obtained. 
